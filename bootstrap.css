@@ -3773,11 +3773,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 2;
 }
 
-.nav {
-  padding-left: 0;
+/*.nav {
+ padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-}
+}*/
 
 .nav:before,
 .nav:after {
@@ -3799,7 +3799,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   clear: both;
 }
 
-.nav > li {
+/*-----.nav > li {
   position: relative;
   display: block;
 }
@@ -3864,7 +3864,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
-}
+}------*/
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
