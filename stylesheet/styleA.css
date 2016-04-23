@@ -1,145 +1,96 @@
-
 .wrapper {
-  font-size: 2em;
-  padding: 2em;
-  margin: 0 auto;
-  width: 95%;
-  background-color: white;
+    font-size: 2em;
+    padding: 2em;
+    margin: 0 auto;
+    width: 95%;
+    background-color: white;
 }
-
 .nav {
-  background:white ;
-  width: 100%;
-  height: 50px;
-	/* Used so the menu drop down can be placed absolutely */
-  position: relative;
-  border: 1px solid #B2BEB5;
- 
+    background: white;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border: 1px solid #B2BEB5;
 }
-
- .nav li {
-  list-style: none;
-  float: left;
-  text-align: center;
-  width: 10%; /* fallback for non-calc() browsers */
-	/* Width divided between the 10 items on the bar */
-  width: calc(100% / 10);
+.nav li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 10%;
+    width: calc(100% / 10);
 }
 .nav > li > div {
-position: absolute;
-left: 0;
-top: 50px;
-   /* Don't show unless the nav bar li is hovered */
-display: none;
-background: #fff;
-box-shadow: 2px 4px 4px rgba(0,0,0,0.4);
- /* Hide anything that might be outside the div */
- overflow: hidden;
-  
-   
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+    background: #fff;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
 }
 
 
-
-
- 
-/* Style links in nav bar */
 .nav > li > a {
-  color: #536267;
-  font-weight: bold;
-  font-size:.85em;
-  padding: 0 20px;
-  line-height: 50px;
-   height: 50px;
-
-  text-transform: uppercase;
-  
-  }
-  
-
-
-  
-  
-
-  
-.contact{
-	color: #536267;
-	font-weight: bold;
-	text-align:right;
-	font-size: .8em;
-	text-decoration: none;
-	line-height: 50px;
-	padding: 0 20px;
-	height: 50px;
-	text-transform: uppercase;
-	float:right;}
- 
-
- 
-/* On hover show the menu drop down */
-.nav > li:hover > div {
-  display:block;
+    color: #536267;
+    font-weight: bold;
+    font-size: .85em;
+    padding: 0 20px;
+    line-height: 50px;
+    height: 50px;
+    text-transform: uppercase;
 }
- 
-/* Position the menu drop down relative to the nav bar */
+.contact {
+    color: #536267;
+    font-weight: bold;
+    text-align: left;
+    font-size: .8em;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    height: 50px;
+    text-transform: uppercase;
+}
 
- 
-/* End of Navigation Bar Styling */
- 
-/* Drop Down Menu Styling */
- 
+
+.nav > li:hover > div {
+    display: block;
+}
 
 .nav-main {
-width: 100%; 
- 
+    width: 100%;
 }
- 
- .container{ 
-font-family: "Raleway";
-color: #536267;
-font-size: 1.2em;
-background-color: white;
-margin-left: auto;
-margin-right: auto;
-margin-top: 40px;
-margin-bottom: 40px;
-
+.container {
+    font-family: "Raleway";
+    color: #536267;
+    font-size: 1.2em;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-
 .centered {
     text-align: center;
 }
 .nav1 {
-  
-  width: 100%;
-  height: 50px;
-	/* Used so the menu drop down can be placed absolutely */
-  position: relative;
-
- 
+    width: 100%;
+    height: 50px;
+    /* Used so the menu drop down can be placed absolutely */
+    
+    position: relative;
 }
-  .nav1> li > a {
-  color: #536267;
-  font-weight: bold;
-  font-size:.85em;
-  padding: 0 20px;
-  line-height: 50px;
-  height:50px;
-	text-transform: uppercase;
+.nav1> li > a {
+    color: #536267;
+    font-weight: bold;
+    font-size: .85em;
+    padding: 0 20px;
+    line-height: 50px;
+    height: 50px;
+    text-transform: uppercase;
 }
-
-#profileimg{
-  border-radius:100%;
-
+#profileimg {
+    border-radius: 100%;
 }
-
-center{
-  text-align: center;
+center {
+    text-align: center;
 }
-
-
-
-
-
-
-
